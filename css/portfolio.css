@@ -1,0 +1,105 @@
+body { background-color: #eee; font-family: Ubuntu, sans-serif}
+
+
+video { width: 100%; height: 100%; }
+
+video::-webkit-media-controls {
+    display:none !important;
+}
+
+/* #igrad 	   { background: #000 url("../img/wip.svg") 			  no-repeat center;  background-size: 100% 100%; }
+#advising  { background: #000 url("../img/cs_advising_thumb.jpg") no-repeat center;  background-size: 100% 100%; }
+#tetris    { background: #000 url("../img/tetris_thumb.png") 	  no-repeat center;  background-size: 100% 100%; }
+#asteroids { background: #000 url("../img/asteroids_thumb.png")   no-repeat center;  background-size: 100% 100%; }
+#fireworks { background: #000 url("../img/fireworks_thumb.png")   no-repeat center;  background-size: 100% 100%; }
+#stars     { background: #000 url("../img/stars_thumb.png") 	  no-repeat center;  background-size: 100% 100%; }
+ */
+
+#linkedin_backup
+{
+	height: 5rem;
+	padding:1rem;
+	background-color:#0066cc;
+	border:none;
+	color:white;
+	margin:0;
+}
+
+#table_refresh, #logout
+{
+	background-color: #009933;
+}
+
+#contact_table_wrapper select, #contact_table_wrapper a.paginate_button
+{
+	background-color: #009933;
+	border: none;
+	color: white!important;
+	padding: 0.2rem 0.2rem;
+	margin-top: 10px;
+	font-weight: 400;
+	font-size: 2.2rem;
+}
+
+
+#contact_table_wrapper a.paginate_button.current
+{
+	color: black!important;
+}
+
+.iframe-container
+{
+	height: 100%;
+}
+
+img.img-fluid.tm-img
+{
+	width: 480px!important;
+	height: 360px!important;
+	background: url("../img/wip.svg") no-repeat center;
+	background-size: cover;
+}
+
+.portrait
+{
+	width: 100px;
+	height: 100px;
+	background: url("../img/portrait.jpg") no-repeat center;
+	background-size: cover;
+	margin-right: 0.5rem;
+}
+
+.tm-navbar-bg
+{
+	overflow: hidden;
+}
+
+.cd-full-width
+{
+	overflow: auto;
+}
+
+.invalid-feedback
+{
+	font-size: 1.2rem;
+}
+
+.grid-item, .mfp-auto-cursor, .mfp-content
+{
+	-moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	
+	cursor: pointer!important;
+}
+
+video
+{
+	cursor: auto;
+}
+
+.tm-navbar-bg
+{
+	padding-left: 0.5rem;
+}
