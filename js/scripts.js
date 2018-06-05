@@ -38,11 +38,58 @@ $(function(){
 	/* Gallery One pop up
 	-----------------------------------------*/
 
+	let verticesVideo = '<div class="container">' +
+							'<div class="row">' +
+								'<video loop autoplay="true" muted playsinline preload="none">' +
+									'<source src="img/vertices.mp4" type="video/mp4">' +
+									'Your browser does not support the video tag.' +
+								'</video>' +
+							'</div>' +
+							'<div class="row text-white">' +
+								'<div class="col-12">' +	
+								'<a href="//medium.com/@jakelandowski/small-graph-rendering-demo-with-two-js-5ef83fce476c" target="_blank">Tutorial published on Medium.com</a><br>' +
+									'A simple demo in rendering with Two.js and simulating graph connections between vertices. ' +
+									'On click creates vertices and each time it will connect edges to other random vertices. ' +
+									'I did this to practice rendering with Two.js so me and my friend <a href="//www.linkedin.com/in/rmarlow" target="_blank">Ryan Marlow</a> ' +
+									'can construct the view in our Graph Library and eventual Game.' +  
+								'</div>' +
+								'<a href="//jlandowski.greenriverdev.com/virus-theory/vertices.html" class="mt-3 mr-3 btn btn-primary" target="_blank">Demo</a>' +
+								'<a href="//github.com/JakeLandowski/Virus-Theory" class="mt-3 mr-3 btn btn-success" target="_blank">Github Repo</a>' +
+								'<a href="//medium.com/@jakelandowski/small-graph-rendering-demo-with-two-js-5ef83fce476c" class="mt-3 mr-3 btn btn-warning" target="_blank">Tutorial</a>' +
+							'</div>' +
+						'</div>';                
+
+	$('#vertices').magnificPopup({                
+	items: { src: verticesVideo, type: 'inline' }
+	});
+
+	let mpowermentVideo = '<div class="container">' +
+						'<div class="row">' +
+							'<video loop autoplay="true" muted playsinline preload="none">' +
+								'<source src="img/mpowerment.mp4" type="video/mp4">' +
+								'Your browser does not support the video tag.' +
+							'</video>' +
+						'</div>' +
+						'<div class="row text-white">' +
+							'<div class="col-12">' +	
+								'Worked on the Admin Dashboard for the Mpowerment Website. A non-profit organization whose ' +
+								'focus is on HIV prevention in the Gay Community. I constructed 100% of the Front End from scratch for the Admin Dashboard ' +
+								'which uses AJAX for all database requests, and uses Google\'s SearchBox API to gather location data ' +
+								'to allow the owners the site easily add accurate location data for various testing centers to be displayed ' +
+								'on our map page. Focus on Scrum methodology with an amazing team of 4 developers.' +  
+							'</div>' +
+							'<a href="//bitsplz.greenriverdev.com/mpowerment/admin" class="mt-3 mr-3 btn btn-primary" target="_blank">Demo</a>'
+						'</div>' +
+					'</div>';                
+
+	$('#mpowerment').magnificPopup({                
+	items: { src: mpowermentVideo, type: 'inline' }
+	});
+
 	let forumVideo = '<div class="container">' +
 						'<div class="row">' +
-							'<video loop autoplay="true" muted playsinline preload="none">' + 
-								'<source src="img/igrad.webm" type="video/webm">' +
-								'<source src="img/igrad.mp4" type="video/mp4">' +
+							'<video loop autoplay="true" muted playsinline preload="none">' +
+								'<source src="img/forum.mp4" type="video/mp4">' +
 								'Your browser does not support the video tag.' +
 							'</video>' +
 						'</div>' +
@@ -50,8 +97,12 @@ $(function(){
 							'<div class="col-12">' +	
 								'Created a forum from scratch using PHP FatFree MVC framework. Created ' +
 								'a CRUD library to abstract secure database calls and used an N-Gram ' +
-								'based approach to store and generate sentences based on user content.' +
+								'based approach to store and generate sentences based on user content. ' +
+								'The algorithm parses and stores all user content to create a data structure ' +
+								'that is used to procedurally generate content in their absence using a php script and a cron job.' +  
 							'</div>' +
+							'<a href="//jlandowski.greenriverdev.com/328/fauxrum/" class="mt-3 mr-3 btn btn-primary" target="_blank">Demo</a>' +
+							'<a href="//github.com/JakeLandowski/fauxrum" class="mt-3 mr-3 btn btn-success" target="_blank">Github Repo</a>' +
 						'</div>' +
 					'</div>';                
 
@@ -70,14 +121,18 @@ $(function(){
 						'</div>' +
 						'<div class="row text-white">' +
 							'<div class="col-6">' +	
-								'Working on a user-friendly web application process for Kent School District\'s iGrad program, ' +
-								'who assist under-privileged youth and high-school drop outs get their degrees.' +
-						'</div>' +
-						'<div class="col-6">' +
-							'My team is focusing on making their grueling 40 page ' +
-							'application process as simple as possible while helping ' +
-							'the iGrad staff go paperless.' +
-						'</div>' +
+								'Worked on an agile team of 4 focused on making Kent School District\'s' +
+								'grueling 40 page ' +
+								'application process as simple as possible while helping ' +
+								'the iGrad staff go paperless.' +
+							'</div>' +
+							'<div class="col-6">' +
+								'I worked on the initial CSS theme and focused on the backend php. I created ' +
+								'a component based self validating and rendering system to allow our team to ' +
+								'create numerous functioning forms from simple specifications. Also implemented ' +
+								'ajax called client side.' +   
+							'</div>' +
+							'<a href="//gitgud.greenrivertech.net/" class="mt-3 mr-3 btn btn-primary" target="_blank">Demo</a>' +
 						'</div>' +
 					'</div>';                
 
@@ -100,8 +155,8 @@ $(function(){
 								'</div>' +
 								'<div class="row text-white">' +
 									'<div class="col-12">' +	
-										'A Java program that downloads and parses web pages for their links and continues downloading. ' +
-										'Tracks keywords entered and shows the rate at which they are found' +
+										'A study on concurrency/threads. Java program that downloads and parses web pages for their links and continues downloading. ' +
+										'Tracks keywords entered and shows the rate at which they are found.' +
 									'</div>' +
 								'</div>' +
 							'</div>';                
@@ -127,16 +182,18 @@ $(function(){
 					'</div>' +
 					'<div class="row text-white">' +
 						'<div class="col-6">' +	
-						'This was my Final Project for our Javascript class. I took my teacher\'s challenge of trying to ' +
-						'simplify the documentation for describing class requirements for Washington\'s new Computer Science ' +
-						'Transfer Degree for various 4 year universities When I was first learning Javascript my obsession at the ' +
-						'time was Single Page Applications, which was the driving inspiration for this project.'  +
-					'</div>' +
-					'<div class="col-6">' +
-						'I created a non-scrolling page who\'s contents are manipulated 100% through Javascript,' +
-						'leading from a starting screen to a 3 panel window that lets you compare the summary of each university, and then select one' +
-						'for more details on that university.' +
-					'</div>' +
+							'Final Project for my Javascript class. I accepted my teacher\'s challenge of trying to ' +
+							'simplify the documentation for describing class requirements for Washington\'s new Computer Science ' +
+							'Transfer Degree to 4 year universities. My obsession at the ' +
+							'time was Single Page Applications, which drove the inspiration for this project.'  +
+						'</div>' +
+						'<div class="col-6">' +
+							'I created a non-scrolling page who\'s contents are manipulated 100% through Javascript,' +
+							'leading from a starting screen to a 3 panel window that lets you compare the summary of each university, and then select one' +
+							'for more details on that university. Heavy focus on performant animation and DOM manipulation.' +
+						'</div>' +
+						'<a href="//jlandowski.greenrivertech.net/207/final" class="mt-3 mr-3 btn btn-primary" target="_blank">Demo</a>' +
+						'<a href="//github.com/JakeLandowski/JavascriptFinal" class="mt-3 mr-3 btn btn-success" target="_blank">Github Repo</a>' +
 					'</div>' +
 				'</div>';
 
@@ -159,11 +216,10 @@ $(function(){
 					'</div>' +
 					'<div class="row text-white">' +
 						'<div class="col-6">' +	
-
-					'</div>' +
-					'<div class="col-6">' +
-
-					'</div>' +
+							'Very simple demo of a tetris game in Java ACM graphics library. ' +
+							'An attempt at matrix programming when I didn\'t have any experience with such things.' + 
+						'</div>' +
+						'<a href="//github.com/JakeLandowski/JavaWork/tree/master/219Final" class="mt-3 mr-3 btn btn-success" target="_blank">Github Repo</a>' +
 					'</div>' +
 				'</div>';      
 
@@ -184,11 +240,9 @@ $(function(){
 					'</div>' +
 					'<div class="row text-white">' +
 						'<div class="col-6">' +	
-
-					'</div>' +
-					'<div class="col-6">' +
-
-					'</div>' +
+							'A rough recreation of the Asteroids arcade game, made in Java using ACM graphics library.' +
+						'</div>' +
+						'<a href="//github.com/JakeLandowski/JavaWork/tree/master/AsteroidsGame" class="mt-3 mr-3 btn btn-success" target="_blank">Github Repo</a>' +
 					'</div>' +
 				'</div>';      
 
@@ -210,12 +264,10 @@ $(function(){
 						'</div>' +
 					'</div>' +
 					'<div class="row text-white">' +
-						'<div class="col-6">' +	
-
-					'</div>' +
-					'<div class="col-6">' +
-
-					'</div>' +
+						'<div class="col-12">' +	
+							'A study on a fractal/recursive algorithm to create pretty effects. Made in Java.' +
+						'</div>' +
+						'<a href="//github.com/JakeLandowski/JavaWork/tree/master/FIreworksFactory" class="mt-3 mr-3 btn btn-success" target="_blank">Github Repo</a>' +
 					'</div>' +
 				'</div>';
 
@@ -236,14 +288,12 @@ $(function(){
 					'</div>' +
 					'<div class="row text-white">' +
 						'<div class="col-12">' +	
-							'This was for the first ' +
-							'assignment for the class where we were to create an animated screensaver. ' +
 							'I tried to recreate the classic warp speed type of screensaver, but realized ' +
 							'in the end that I did it backwards so it\'s actually more of a blackhole screensaver ' +
 							':D. The program populates a set amount of "particles" and then recycles them by ' +
 							'positioning them to a new random location outside of the screen once they reach the center.' +
 						'</div>' +
-						'<a href="//github.com/JakeLandowski/JavaWork/tree/master/Screensaver" class="btn btn-success" target="_blank">Github Repo</a>' +
+						'<a href="//github.com/JakeLandowski/JavaWork/tree/master/Screensaver" class="mt-3 mr-3 btn btn-success" target="_blank">Github Repo</a>' +
 					'</div>' +
 				'</div>';
 

@@ -49,8 +49,8 @@ http://www.templatemo.com/tm-500-fluid-gallery
 						<div class="portrait"></div>Jacob Landowski</a>
 
 					<button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#tmNavbar">
-                            &#9776;
-                        </button>
+						&#9776;
+					</button>
 					<div class="collapse navbar-collapse text-xs-center text-uppercase tm-navbar" id="tmNavbar">
 						<ul class="nav navbar-nav">
 							<li class="nav-item active selected">
@@ -84,6 +84,26 @@ http://www.templatemo.com/tm-500-fluid-gallery
 						<div class="tm-img-gallery-container">
 							<div class="tm-img-gallery gallery-one">
 								<!-- Gallery One pop up connected with JS code below -->
+								<div id="vertices" class="grid-item">
+									<figure class="effect-sadie">
+										<img src="img/vertices.png" alt="Two.js Graph Render Demo" class="img-fluid tm-img">
+										<figcaption>
+											<h2 class="tm-figure-title"><span><strong>Two.js Graph Render Demo</strong></span></h2>
+											<p class="tm-figure-description">A demo using Two.js to practice rendering graphs</p>
+											<!--                                                 <a href="img/igrad.webm">View more</a> -->
+										</figcaption>
+									</figure>
+								</div>
+								<div id="mpowerment" class="grid-item">
+									<figure class="effect-sadie">
+										<img src="img/mpowerment.png" alt="Mpowerment Admin Dashboard" class="img-fluid tm-img">
+										<figcaption>
+											<h2 class="tm-figure-title"><span><strong>Mpowerment Admin Dashboard</strong></span></h2>
+											<p class="tm-figure-description">Robust admin dashboard for letting the site owners customize map location data</p>
+											<!--                                                 <a href="img/igrad.webm">View more</a> -->
+										</figcaption>
+									</figure>
+								</div>
 								<div id="forum" class="grid-item">
 									<figure class="effect-sadie">
 										<img src="img/forum.png" alt="Sentence Generator Forum" class="img-fluid tm-img">
@@ -96,7 +116,7 @@ http://www.templatemo.com/tm-500-fluid-gallery
 								</div>
 								<div id="igrad" class="grid-item">
 									<figure class="effect-sadie">
-										<img src="img/wip.svg" alt="iGrad Application" class="img-fluid tm-img">
+										<img src="img/igrad.png" alt="iGrad Application" class="img-fluid tm-img">
 										<figcaption>
 											<h2 class="tm-figure-title"><span><strong>iGrad Application</strong></span></h2>
 											<p class="tm-figure-description">User-friendly web application process for Kent School District</p>
@@ -215,13 +235,14 @@ http://www.templatemo.com/tm-500-fluid-gallery
 										<div class="tm-bg-white-translucent text-xs-left tm-textbox tm-textbox-padding">
 											<h2 class="tm-text-title">Who I Am</h2>
 											<p class="tm-text">
-												I am currently a Junior in my Software Development BAS. 
+												My name is Jake, and I'm a growth-minded software development student. 
+												I learn technologies extremely fast and I'm valued-obsessed. I have worked on 2 
+												agile teams to create valuable web apps for non-profits, and have pushed myself
+												on personal projects. I think differently and am passionate about relating non-related
+												ideas. I aim to work on innovative projects that challenge me and force me to grow.
 											</p>
-											<p class="tm-text">
-												I was wandering aimlessly in life unsure of what I wanted to do, but was lucky enough to find a major passion for Software and Web Development while in school, so now I am eating, breathing, and sleeping both school and side projects.
-											</p>
-											<p class="tm-text">
-												I am also seeking internships where I can be challenged and forced to grow. I absolutely love testing my ability to learn.  
+											<p>
+												<a href="img/resume1.png" target="_blank">Here's my resume</a>
 											</p>
 										</div>
 									</div>
@@ -234,22 +255,26 @@ http://www.templatemo.com/tm-500-fluid-gallery
 										<div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox-2 tm-textbox-padding">
 											<h2 class="tm-text-title">What I'm Doing</h2>
 											<p class="tm-text">
-												I am finishing a web application for iGrad, which will hopefully increase their currently horrible conversion rate. 
+												I am finishing a web application for Mpowerment, a non-profit focused on HIV prevention in the Gay Community. 
 											</p>
 											<p class="tm-text">
-												I will also be learning C++ in the coming Winter Break, along with Ruby on Rails, I hope to start the development for a web application that will help me reduce the barrier of entry for attending tech meetups in Seattle.
+												Over the summer, I will be refactoring and redesigning the website with my friend <a href="//www.linkedin.com/in/sarahelkhart" target="_blank">Sarah Elkhart</a> 
+												for All American Assistance (AAA) Dogs, another non-profit my parents volunteer for. 
+												They raise puppies to be service dogs for Veterans with emotional/physical disabilities and traumatic brain injuries. 
 											</p>
 											<p class="tm-text">
-												I plan to utilize both Meetup API and Google Map API to auto-generate routes and schedules for relevant meetups, this is mainly for my peers and I.
+												I am also working on a personal project with my friend <a href="//www.linkedin.com/in/rmarlow" target="_blank">Ryan Marlow</a>. 
+												We will be working on a Graph Data Structure Javascript Library and then structure it with MVC using Two.js to render the view. 
+												Then the plan is to create a Virus inspired game using all of this.
 											</p>
 										</div>
 										<div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox-2 tm-textbox-padding">
 											<h2 class="tm-text-title">What I Enjoy</h2>
 											<p class="tm-text">
-												My favorite language is Javascript. I love how powerful it is. I love how it integrates (pseudo) object-oriented concepts along with functional programming. I love how far-spread it has become, infecting just about any platform you can think of. I love the Javascript libraries, most notably React. I really want to get into developing web games using Javascript and WebSockets.
+												My favorite language is Javascript. I love how powerful it is. I love how it integrates (pseudo) object-oriented concepts along with functional programming. I love how far-spread it has become, infecting just about any platform you can think of. I really want to get into developing web games using Javascript and WebSockets.
 											</p>
 											<p class="tm-text">
-												Other than that I enjoy what most sane people enjoy: Cats, games, coffee, tea, caffeine, sleep, energy drinks, and oddly enough, working with people.  
+												Other than that, I'm still a gamer at heart, I enjoy caffeine, loud music, and I love working with intelligent and reliable people.  
 											</p>
 										</div>
 									</div>
