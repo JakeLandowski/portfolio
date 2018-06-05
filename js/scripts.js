@@ -208,11 +208,11 @@ $(function(){
 					'<div class="row">' +
 						'<div class="col-10 offset-1">' +
 							'<video loop autoplay="true" muted playsinline preload="none">' +
-							'<source src="img/tetris.webm" type="video/webm">' +
-							'<source src="img/tetris.mp4" type="video/mp4">' +
-							'Your browser does not support the video tag.' +
+								'<source src="img/tetris.webm" type="video/webm">' +
+								'<source src="img/tetris.mp4" type="video/mp4">' +
+								'Your browser does not support the video tag.' +
+	    						'</video>' +
 						'<div>' +
-					'</video>' +
 					'</div>' +
 					'<div class="row text-white">' +
 						'<div class="col-6">' +	
